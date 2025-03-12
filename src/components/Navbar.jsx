@@ -33,7 +33,7 @@ const Navbar = () => {
   }
   const products = useSelector(state => state.cart.products)
   return (
-    <nav className="bg=white shadow-md">
+    <nav className="bg-white shadow-md">
       <div className="container mx-auto px-4 md:px16 lg:px-24 py-4 flex justify-between items-center">
         <div className="text-lg font-bold">
           <Link to="/">My Shop</Link>
